@@ -1,15 +1,11 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import Button from "../../../components/atomic/atoms/index";
+import Button from "../../../components/atomic/atoms/Button/index";
 
 export default {
   title: "Atoms/Button",
   component: Button,
 };
 
-const Template = (args) => <Button {...args} />;
-
-export const Primary = Template.bind({});
-
-Primary.args = {
-  children: "Primary",
-};
+export const Primary = () => <Button type="primary">Primary</Button>;
+export const Secondary = () => <Button type="secondary">Secondary</Button>;
