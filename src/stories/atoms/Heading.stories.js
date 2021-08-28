@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import Heading from "../../../components/atomic/atoms/Heading/index";
+import Heading from "../../components/atomic/atoms/Heading/index";
 
 export default {
   title: "Atoms/Heading",

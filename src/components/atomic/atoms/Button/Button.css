@@ -1,14 +1,16 @@
 .button {
-  border: 1px solid transparent;
+  border: 1px solid var(--colors-transparent);
   padding: 10px 85px;
   border-radius: 30px;
-  box-shadow: 0px 4px 5px var(--white-lilac);
+  box-shadow: 0px 4px 5px var(--colors-brand-white-lilac);
   cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: var(--font-size-2xl);
 }
 
 .button-primary {
-  background: var(--medium-purple);
-  color: var(--white);
+  background: var(--colors-primary);
+  color: var(--colors-white);
 }
 
 .button:hover {
@@ -20,7 +22,16 @@
 }
 
 .button-secondary {
-  background: transparent;
-  color: var(--medium-purple);
-  border: 1px solid var(--medium-purple);
+  background: var(--colors-transparent);
+  color: var(--colors-primary);
+  border: 1px solid var(--colors-primary);
+}
+
+.button-tertiary {
+  background: var(--colors-transparent);
+  color: var(--colors-primary);
+  box-shadow: var(--shadows-none);
+  padding: 0;
+  border-bottom: 1px solid var(--colors-primary);
+  border-radius: var(--border-radius-none);
 }

@@ -2,12 +2,12 @@
   line-height: 1.25;
 }
 
-.color-default{
-    color: var(--eats-bay);
+.color-default {
+  color: var(--colors-brand-eats-bay);
 }
 
-.color-primary{
-    color: var(--medium-purple)
+.color-primary {
+  color: var(--colors-primary);
 }
 
 .size-md {
